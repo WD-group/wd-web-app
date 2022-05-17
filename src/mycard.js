@@ -9,7 +9,7 @@ export default function ActionAreaCard(props) {
 	let title = "Titolo Mancante";
 	let text = "Sei un dugo";
 	return (
-		<Card>
+		<Card sx={{ mt: 1 }}>
 			<CardActionArea>
 				<CardMedia
 					component="img"
