@@ -5,6 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 
+/*
 function ElevationScroll(props) {
 	const { children, window } = props;
 	// Note that you normally won't need to set the window ref as useScrollTrigger
@@ -23,18 +24,15 @@ function ElevationScroll(props) {
 
 ElevationScroll.propTypes = {
 	children: PropTypes.element.isRequired,
-	/**
-	 * Injected by the documentation to work in an iframe.
-	 * You won't need it on your project.
-	 */
 	window: PropTypes.func,
 };
+*/
 
 export default function ElevateAppBar(props) {
 	return (
 		<React.Fragment>
 			<CssBaseline />
-			<ElevationScroll {...props}>
+			{/* <ElevationScroll {...props}> */}
 				<AppBar>
 					<Toolbar>
 						
@@ -42,7 +40,7 @@ export default function ElevateAppBar(props) {
 						
 					</Toolbar>
 				</AppBar>
-			</ElevationScroll>
+			{/* </ElevationScroll> */}
 			<Toolbar />
 		</React.Fragment>
 	);
