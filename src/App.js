@@ -1,5 +1,5 @@
-import Card from './mycard';
-import Navbar from './mybar';
+import Card from './components/card/mycard';
+import Navbar from './components/navbar/mybar';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { blue, green, purple } from '@mui/material/colors';
