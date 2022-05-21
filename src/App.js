@@ -1,5 +1,6 @@
 import Card from './components/card/mycard';
 import Navbar from './components/navbar/mybar';
+import Hero from './components/hero/hero';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { blue, green, purple } from '@mui/material/colors';
@@ -12,6 +13,9 @@ const theme = createTheme({
     },
     secondary: {
       main: green[500],
+    },
+    background: {
+      default: '#fff',
     }
   }
 })
@@ -22,6 +26,7 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
       <Navbar />
+      <Hero />
       <Card
         image="http://www.campingbellavista.nl/wp-content/uploads/beigua3-8.jpg"
         title="Il Monte Beigua"
