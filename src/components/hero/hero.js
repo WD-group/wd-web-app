@@ -7,7 +7,7 @@ import { Paper } from '@mui/material';
 export default function ActionAreaCard(props) {
 	let text = "testo mancante";
 	return (
-		<Paper elevation={0} style={{ backgroundColor: "#5600E8", padding: "16px", borderRadius: "0", paddingTop:"32px"}}>
+		<Paper elevation={0} style={{ backgroundColor: "#6D3EBB", padding: "16px", borderRadius: "0", paddingTop:"32px"}}>
 			<CardMedia
 				component="img"
 				//height="140"
