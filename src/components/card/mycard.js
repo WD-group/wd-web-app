@@ -7,10 +7,19 @@ import { CardActionArea } from '@mui/material';
 
 export default function ActionAreaCard(props) {
 	let title = "Titolo Mancante";
-	let text = "Sei un dugo";
+	let text = "Testo mancante";
+	let subtitle = "Sottotitolo mancante";
 	return (
-		<Card sx={{ mt: 1 }}>
+		<Card sx={{ mt: "30px" }}>
 			<CardActionArea>
+				<CardContent>
+					<Typography gutterBottom variant="h3" component="div">
+						{props.title ? props.title : title}
+					</Typography>
+					<Typography gutterBottom variant="h4" component="div" fontWeight={700}>
+						{props.subtitle ? props.title : subtitle}
+					</Typography>
+				</CardContent>
 				<CardMedia
 					component="img"
 					//height="140"
@@ -18,9 +27,6 @@ export default function ActionAreaCard(props) {
 					alt={props.alt}
 				/>
 				<CardContent>
-					<Typography gutterBottom variant="h5" component="div">
-						{props.title?props.title:title}
-					</Typography>
 					<Typography variant="body2" color="text.secondary">
 						{props.text?props.text:text}
 					</Typography>
