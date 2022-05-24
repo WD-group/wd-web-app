@@ -3,9 +3,23 @@ import Navbar from './components/navbar/mybar';
 import Hero from './components/hero/hero';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { blue, green, purple } from '@mui/material/colors';
+import { green } from '@mui/material/colors';
 
 const theme = createTheme({
+  typography: {
+    h3: {
+      fontWeight: 700,
+      fontSize: "24px",
+    },
+    h4: {
+      fontWeight: 700,
+      fontSize: "14px",
+    },
+    body2: {
+      fontWeight: 700,
+      fontSize: "14px",
+    },
+  },
   palette: {
     primary: {
       main: '#6200EE',
