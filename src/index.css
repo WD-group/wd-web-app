@@ -22,6 +22,15 @@ code {
   padding: 16px;
 }
 
+.navbar-logo-shifted{
+  display: block;
+  margin-right: auto;
+  width: 100%;
+  max-width: 75px;
+  height: auto;
+  padding: 16px;
+}
+
 .navbar-logo-left{
   display: block;
   width: 100%;

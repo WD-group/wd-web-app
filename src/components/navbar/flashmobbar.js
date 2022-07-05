@@ -11,8 +11,8 @@ export default function ElevateAppBar(props) {
 			<AppBar>
 				<Toolbar>
 
-					<img src="/icon.svg" alt="beiguaLogo" className={"navbar-logo"} sx={{ flexGrow: 1, mt: "16px" }} />
-					<Typography variant="h6" textAlign="center" component="div" fontWeight={700} fontSize={24} sx={{ flexGrow: 1 }}>
+					<img src="/icon.svg" alt="beiguaLogo" className={"navbar-logo-shifted"} sx={{ flexGrow: 1, mt: "16px" }} />
+					<Typography position="absolute" left="0" right="0" variant="h6" textAlign="center" component="div" fontWeight={700} fontSize={24} sx={{ mr: "auto", ml: "auto", flexGrow: 1 }}>
 						Flash Mob
 					</Typography>
 					{/* <div sx={{ flexGrow: 1 }}></div> */}
