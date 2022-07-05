@@ -16,7 +16,7 @@ export default function ActionAreaCard(props) {
 			/>
 		<CardContent>
 				<Typography variant="h5" color="white" align='center'>
-					<br />
+					<br/>
 					Per sensibilizzare sul rischio dovuto all’ipotetica apertura della miniera sul Beigua, 
 					M.O.B si propone di organizzare una serie di eventi nei quali le persone potranno prendere 
 					parte a dei Flash Mob
