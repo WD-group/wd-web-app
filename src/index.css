@@ -39,3 +39,40 @@ code {
   max-width: 76px;
   height: auto;
 }
+
+.flash-mob-top{
+  width: 100%;
+  margin-top: 16px;
+  -webkit-filter: brightness(80%);
+    filter:brightness(80%);
+}
+
+.event-hero{
+  position: relative;
+  color: white;
+}
+
+.event-title{
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+}
+
+.images-section{
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.flash-mob-event-image{
+  position: absolute;
+  right: 16px;
+  top: 30px;
+  z-index: 2;
+}
+
+.flash-mob-dots {
+ position: absolute;
+ left: 16px;
+}

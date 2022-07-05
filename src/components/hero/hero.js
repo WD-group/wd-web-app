@@ -14,8 +14,8 @@ export default function ActionAreaCard(props) {
 				image="/big_logo.svg"
 				alt=""
 			/>
-		<CardContent>
-				<Typography variant="h5" color="white" align='center'>
+		<CardContent align='center'>
+				<Typography variant="bodymontserrat" color="white" align='center'>
 					<br/>
 					Per sensibilizzare sul rischio dovuto all’ipotetica apertura della miniera sul Beigua, 
 					M.O.B si propone di organizzare una serie di eventi nei quali le persone potranno prendere 
