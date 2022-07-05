@@ -21,3 +21,12 @@ code {
   height: auto;
   padding: 16px;
 }
+
+.navbar-logo-left{
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 76px;
+  height: auto;
+}

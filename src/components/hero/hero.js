@@ -15,12 +15,11 @@ export default function ActionAreaCard(props) {
 				alt=""
 			/>
 		<CardContent>
-				<Typography variant="h6" color="white" align='center'>
+				<Typography variant="h5" color="white" align='center'>
 					<br />
-					Il Monte Beigua è in pericolo.<br/>
-					La salute di tutta la popolazione ligure è in pericolo.<br /><br />
-					Organizziamo una serie di Flash Mob per sensibilizzare le persone sul tema, così da evitare che per
-					l'interesse di pochi i più finiscano per correggere il loro caffè con l'amianto.
+					Per sensibilizzare sul rischio dovuto all’ipotetica apertura della miniera sul Beigua, 
+					M.O.B si propone di organizzare una serie di eventi nei quali le persone potranno prendere 
+					parte a dei Flash Mob
 				</Typography>
 			</CardContent>
 		</Paper>

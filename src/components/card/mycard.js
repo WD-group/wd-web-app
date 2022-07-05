@@ -5,7 +5,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
+
 export default function ActionAreaCard(props) {
+
 	let title = "Titolo Mancante";
 	let text = "Testo mancante";
 	let subtitle = "Sottotitolo mancante";
@@ -17,7 +19,7 @@ export default function ActionAreaCard(props) {
 						{props.title ? props.title : title}
 					</Typography>
 					<Typography gutterBottom variant="h4" component="div" fontWeight={700}>
-						{props.subtitle ? props.title : subtitle}
+						{props.subtitle ? props.subtitle : subtitle}
 					</Typography>
 				</CardContent>
 				<CardMedia

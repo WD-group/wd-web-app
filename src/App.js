@@ -1,6 +1,7 @@
 import Card from './components/card/mycard';
 import Navbar from './components/navbar/mybar';
 import Hero from './components/hero/hero';
+import Footer from './components/footer/footer';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { green } from '@mui/material/colors';
@@ -9,11 +10,15 @@ const theme = createTheme({
   typography: {
     h3: {
       fontWeight: 700,
-      fontSize: "24px",
+      fontSize: "20px",
     },
     h4: {
-      fontWeight: 700,
+      fontWeight: 500,
       fontSize: "14px",
+    },
+    h5: {
+      fontWeight: 400,
+      fontSize: "17px",
     },
     body2: {
       fontWeight: 700,
@@ -42,27 +47,20 @@ function App() {
       <Navbar />
       <Hero />
       <Card
-        image="http://www.campingbellavista.nl/wp-content/uploads/beigua3-8.jpg"
-        title="Il Monte Beigua"
-        text="Il monte Beigua è il monte più montuoso della Liguria"
-        alt="Monte Beigua"
+        image="./flash_mob_card_back.jpg"
+        title="Flash Mob"
+        subtitle="Prossimi eventi"
+        text="Eventi in programma a cui poter partecipare, info sui flash mob e molto altro."
+        alt="Flash Mob"
         />
       <Card
-        image="https://www.trekkingways.it/wp-content/uploads/53761314_1158544924306983_4707143552071630848_o.jpg"
-        title="Maïonęysē"
-        text="Sul monte Beigua si coltiva anche la Maïonęysē. Qui se ne possono assaporare le bellezze, ma la vista è una delle più belle del mondo. Il monte è una delle pietre preziose che si possono trovare in tutto il paese."
+        image="./social_back.jpg"
+        title="Social"
+        subtitle="Eventi passati"
+        text="Seguici su tutte le nostre pagine social per rimanere aggiornato e rivivere gli eventi già svolti."
+        alt="Social"
         />
-      <Card
-        image="https://live.staticflickr.com/561/18394527933_2be5291094_b.jpg"
-        title="Il Monte di Cimbera"
-        text="Il monte di Cimbera è una cima, non centra nulla con il monte Beigua ma come si può vedere ha un bellissimo borgo in stile barocco."
-        alt="Monte di Cimbera"
-        />
-      <Card image="https://img2.juzaphoto.com/002/shared_files/uploads/2293128_l.jpg"
-        title="Sempre il monte Beigua"
-        text="Il minimo che si può fare è salutare il monte Beigua. Non è una cosa che si può fare in una settimana ma è una cosa che si può fare in un mese."
-        />
-      <Card image="http://images6.fanpop.com/image/photos/35200000/Dog-dogs-35247719-3706-2480.jpg" />
+      <Footer />
       </ThemeProvider>
     </>
   );
