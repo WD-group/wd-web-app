@@ -1,23 +1,20 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import CssBaseline from '@mui/material/CssBaseline';
+import { Link } from 'react-router-dom';
 
-
-export default function ElevateAppBar(props) {
+export default function ElevateAppBar() {
 	return (
 		<React.Fragment>
 			<CssBaseline />
-			{/* <ElevationScroll {...props}> */}
 			<AppBar position="relative" color="primary" sx={{ top: 'auto', bottom: 0, mt: "30px" }}>
 				<Toolbar>
-				
-					<img src="/big_logo.svg" alt="beiguaLogo"  className={"navbar-logo-left"}/>
-				
+					<Link to="/">
+						<img src="/big_logo.svg" alt="beiguaLogo" className={"navbar-logo-left"} href="/"/>
+					</Link>
 				</Toolbar>
 			</AppBar>
-			{/* </ElevationScroll> */}
 		</React.Fragment>
 	);
 }
