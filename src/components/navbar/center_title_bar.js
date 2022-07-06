@@ -15,7 +15,7 @@ export default function ElevateAppBar(props) {
 					<Link to="/">
 						<img src="/icon.svg" alt="home" className={"navbar-logo-shifted"} sx={{ flexGrow: 1, mt: "16px" }} />
 					</Link>
-					<Typography position="absolute" ml="40%" variant="poppinstitle" textAlign="center" component="div" >
+					<Typography position="absolute" left="25%" right="25%" variant="poppinstitle" textAlign="center" component="div" >
 						{props.title ? props.title : title}
 					</Typography>
 				</Toolbar>
