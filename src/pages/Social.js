@@ -1,14 +1,14 @@
-import { Typography } from '@mui/material';
 import NavBar from '../components/navbar/center_title_bar';
 import SocialLink from '../components/social_link';
+
 export default function Eventi() {
 	return (
 		<div>
 			<NavBar title="Social" />
-			<Typography variant='h2' gutterBottom component="div" sx={{ paddingTop: "32px", fontSize: "13px", mx: "16px", my: "5px"}}>
-				SOCIAL
-			</Typography>
-			<SocialLink social_name="instagram" social_link="https://www.instagram.com" />
+			<div className="divider"></div>
+			<SocialLink social_name="Instagram" color="#39108A" social_link="https://www.instagram.com/minierabeigua/" />
+			<SocialLink social_name="Facebook" color="#6D3EBB" social_link="https://www.facebook.com/profile.php?id=100083037644566" />
+			<SocialLink social_name="YouTube" color="#A06BEE" social_link="https://www.youtube.com/channel/UCAHcFqS4RI5W9bqTMVyQjvw" />
 		</div>
 	);
 }

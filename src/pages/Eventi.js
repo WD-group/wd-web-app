@@ -1,5 +1,6 @@
 import { Typography } from '@mui/material';
 import NavBar from '../components/navbar/center_title_bar';
+import Footer from '../components/footer/footer';
 export default function Eventi() {
 	return (
 		<div>
@@ -32,6 +33,7 @@ export default function Eventi() {
 				situazione analoga è una metafora per indicare quello che potrebbe
 				succedere con l’apertura della cava.
 			</Typography>
+			<Footer />
 		</div>
 	);
 }

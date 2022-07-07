@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Footer from './components/footer/footer';
 import Home from './pages/Home';
 import Eventi from './pages/Eventi';
 import Social from './pages/Social';
@@ -66,14 +65,13 @@ function App() {
 	return (
 		<Router>
 			<ThemeProvider theme={theme}>
-				<div className='content'>
+				<div className="content">
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/eventi" element={<Eventi />} />
 						<Route path="/social" element={<Social />} />
 					</Routes>
 				</div>
-				<Footer />
 			</ThemeProvider>
 		</Router>
 	);

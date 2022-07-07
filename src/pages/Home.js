@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../components/card/mycard';
 import Hero from '../components/hero/hero';
 import Navbar from '../components/navbar/homebar';
+import Footer from '../components/footer/footer';
 
 import { Link } from 'react-router-dom';
 
@@ -28,6 +29,7 @@ const Home = () => {
 					alt="Social"
 				/>
 			</Link>
+			<Footer />
 		</div>
 	);
 }
