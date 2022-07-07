@@ -43,7 +43,6 @@ code {
 
 .flash-mob-top{
   width: 100%;
-  margin-top: 16px;
   -webkit-filter: brightness(80%);
     filter:brightness(80%);
 }
