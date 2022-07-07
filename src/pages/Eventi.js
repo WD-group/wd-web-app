@@ -5,6 +5,7 @@ export default function Eventi() {
 	return (
 		<div>
 			<NavBar title="Flash Mob" />
+			<div className="divider"></div>
 			<div class="event-hero">
 				<img src="/flash_mob_top.svg" alt="flashMobImage" className={"flash-mob-top"} sx={{ flexGrow: 1 }} />
 				<div class="event-title">
