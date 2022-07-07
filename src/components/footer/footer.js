@@ -34,18 +34,19 @@ export default function ElevateAppBar() {
 							icon={false}
 							action={
 								<IconButton
-									aria-label="close"
-									color="primary"
-									size="small"
-									onClick={() => {
-										setOpen(false);
-									}}
+								aria-label="close"
+								color="primary"
+								size="small"
+								onClick={() => {
+									setOpen(false);
+								}}
 								>
 									<CloseIcon fontSize="inherit" />
 								</IconButton>
 							}
 							sx={{ mb: 2 }}
 						>
+							<CookieIcon/>
 							Questo sito utilizza Cookie.
 						</Alert>
 					</Collapse>
