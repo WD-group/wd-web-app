@@ -46,7 +46,6 @@ export default function ElevateAppBar() {
 							}
 							sx={{ mb: 2 }}
 						>
-							<CookieIcon/>
 							Questo sito utilizza Cookie.
 						</Alert>
 					</Collapse>
