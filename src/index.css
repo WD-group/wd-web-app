@@ -80,3 +80,11 @@ code {
 .divider{
   height: 71.81px;
 }
+
+.cookie-infos{
+  position: absolute;
+  right: 0;
+  /* padding: 16px; */
+  margin-right: 16px;
+  margin-top: 10px;
+}
